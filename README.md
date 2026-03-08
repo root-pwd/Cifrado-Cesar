@@ -40,5 +40,6 @@ Comandos Independientes:
 Ejemplo completo:
   ./cifrado_cesar.sh -cf -r 3 "Hola mundo" -o ejemplo.txt
   ./cifrado_cesar.sh -df
+
 =======================================================
 
