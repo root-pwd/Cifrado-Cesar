@@ -21,6 +21,7 @@ Este proyecto fue creado con fines educativos y como modelo de desarrollo para e
 ----
 # Uso.
 =======================================================
+
 Uso: ./cifrado_cesar.sh [OPCIONES] ["MENSAJE"]
    (Si no proporciona MENSAJE, se pedirá de forma interactiva).
 
