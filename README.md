@@ -18,3 +18,26 @@ El principio de un cifrado es que exista una manera de que la contraparte pueda 
 
 Este proyecto fue creado con fines educativos y como modelo de desarrollo para el lenguaje **Bash**. Es un script que puedes ejecutar dando permisos de ejecución con el comando `chmod +x` y ejecutando con `./`. Puedes revisar el código y verificar que no contiene ningún actor malicioso.
 
+----
+# Uso.
+=======================================================
+Uso: ./cifrado_cesar.sh [OPCIONES] ["MENSAJE"]
+   (Si no proporciona MENSAJE, se pedirá de forma interactiva).
+
+Parámetros de Operación (mutuamente excluyentes):
+  -cf          Modo de Codificación (Cifrar). Rotación por defecto: 3.
+  -df          Modo de Decodificación (Descifrar). Rotación por defecto: 3.
+
+Opciones Adicionales:
+  -r [Número]  Establece la rotación/clave (ej: -r 5).
+  -o [Archivo] Redirige la salida a un archivo (ej: -o salida.txt).
+
+Comandos Independientes:
+  -help        Muestra el menú de ayuda.
+  -exit        Cancela la ejecución del script.
+
+Ejemplo completo:
+  ./cifrado_cesar.sh -cf -r 3 "Hola mundo" -o ejemplo.txt
+  ./cifrado_cesar.sh -df
+=======================================================
+
