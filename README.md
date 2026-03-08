@@ -42,4 +42,5 @@ Ejemplo completo:
   ./cifrado_cesar.sh -df
 
 =======================================================
+
 <a href="https://www.linkedin.com/in/luis-velasquez-552b0b185"><img src="https://img.shields.io/badge/-LinkeIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
